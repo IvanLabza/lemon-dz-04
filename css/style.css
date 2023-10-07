@@ -85,7 +85,6 @@ img {
     font-size: 29px;
     font-weight: 500;
     line-height: 45px;
-    min-width: 762px;
 }
 
 .link-cont {
@@ -143,12 +142,18 @@ img {
     border: 4px solid #000;
     border-bottom-left-radius: 51%;
     z-index: 1;
+    object-fit: cover;
 }
 
 .img-bd {
     flex-shrink: 0;
     position: absolute;
     z-index: 0;
-    bottom: 13%;
+    bottom: 14px;
     left: 1%;
+    background-color: #000;
+    border-bottom-left-radius: 51%;
+    width: 100%;
+    height: 100%;
+
 }
